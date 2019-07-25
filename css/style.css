@@ -1,0 +1,263 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background:#ffffff;
+}
+
+.black_header{
+	background: #212121;
+}
+
+.header_search{
+    margin-left: 10em;
+}
+@media (max-width:768px){
+    .header_search{
+        width: 100%;
+        margin-left: 0em;
+    }
+}
+.header_rightt{
+    margin-right: 10em;
+}
+
+.logo_products{
+	padding: 2.5em 0 1em;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+
+.w3ls_logo_products_left{
+	float:left;
+	margin-right: 1em;
+}
+
+.w3ls_logo_products_left h1 a{
+	font-size: 1.5em;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background: url(../images/img-sp.png) no-repeat 54px 6px;
+    line-height: 1;
+    height: 97px;
+}
+
+.w3ls_logo_products_left h1 a span {
+    font-size: .3em;
+    display: block;
+    color: #FA1818;
+}
+
+.w3ls_logo_products_left1{
+	float: left;
+	margin-top: 3.3em;
+	font-size: .9em;
+}
+
+.w3ls_logo_products_left1 li{
+	display:inline-block;
+}
+
+.w3ls_logo_products_left1 li a{
+	color:#212121;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration:none;
+}
+
+.w3ls_logo_products_left1 ul.special_items li a:hover{
+	color:#FA1818;
+}
+
+.w3ls_logo_products_left1 ul.special_items li i{
+	padding:0 2em;
+}
+
+.newsletter{
+	background:#FA1818;
+    padding: 3em;
+}
+
+.top_product{
+    padding: 3em;
+}
+
+span.line-through {
+   text-decoration: line-through;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #212121 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size:25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.hotoffers{
+    background: #f5f5f5;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.topproduct_list{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.topproduct_list i{
+    padding-left: 1.5em;
+}
+
+.topproduct_list span{
+    padding-left: 1.5em;
+}
+
+.border-bottom{
+    padding-bottom: 1.5em;
+}
+
+.agile_top_brand_left_grid{
+    background: #FFFFFF;
+    padding: .5em;
+    border: 1px solid #BEBEBE;
+    position:relative;
+}
+
+.agile_top_brand_left_grid1{
+    padding:1em;
+    border:1px solid #D7D7D7;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 25%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+}
+.col-lg-2,.col-lg-10{
+    padding-left: 0px !important;;
+    padding-right: 0px !important;;
+}
